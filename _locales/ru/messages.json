@@ -4,5 +4,8 @@
     },
     "description": {
         "message": "Переключение между сервисами Google"
+    },
+    "error_message": {
+        "message": "Что-то пошло не так"
     }
 }

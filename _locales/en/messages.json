@@ -4,5 +4,8 @@
     },
     "description": {
         "message": "Switch between Google products"
+    },
+    "error_message": {
+        "message": "Ooops! Looks like something went wrong!"
     }
 }
