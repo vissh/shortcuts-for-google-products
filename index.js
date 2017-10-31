@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var dataUrl = 'https://www.google.com/async/newtab?async=xid:1,_fmt:json&espv=2&yv=1';
+    var hostName = chrome.i18n.getMessage('hostname');
+    var dataUrl = hostName + 'async/newtab?async=xid:1,_fmt:json&espv=2&yv=1';
 
     var request = function (url, callback) {
         var statechange = function () {

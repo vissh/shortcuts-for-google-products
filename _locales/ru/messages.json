@@ -1,4 +1,7 @@
 {
+    "hostname": {
+        "message": "https://www.google.ru/"
+    },
     "default_title": {
         "message": "Сервисы"
     },

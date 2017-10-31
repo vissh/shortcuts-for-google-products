@@ -1,4 +1,7 @@
 {
+    "hostname": {
+        "message": "https://www.google.com/"
+    },
     "default_title": {
         "message": "Apps"
     },
