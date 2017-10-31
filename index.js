@@ -15,8 +15,9 @@ document.addEventListener('DOMContentLoaded', function () {
         xhr.send();
     };
 
-    var clickHandler = function () {
+    var clickHandler = function (event) {
         window.open(this.childNodes[0].href);
+        window.close();
     };
 
     var savedHtml = localStorage.getItem('savedHtml');
