@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.documentElement.innerHTML = originHtml;
         
         if (css) {
-            css = css.replace(/\/\/ssl.gstatic./g, 'https://ssl.gstatic.');
+            css = css.replace(/'\/\/ssl\.gstatic/g, "'https://ssl.gstatic");
             document.getElementById('loadcss').innerHTML = css;
         }
         
